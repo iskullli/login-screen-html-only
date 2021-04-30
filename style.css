@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(65, 98, 121, 0.705);
+}
+
+.main-content-header{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.main-content-footer{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.main-content{
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.main-content form{
+    margin: 20px;
+}
+
+.main-content input,
+.main-content button{
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.main-content input{
+    border-bottom: #CCC;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: darkgreen;  
+    margin-bottom: 10px;
+}
+
+.main-content button{
+    background-color: darkgreen;
+}

@@ -1,14 +1,7 @@
-var email = 'andre.carlos.ribeiro7@gmail.com';
-
-console.log('O meu e-mail é: ' + email);
-
-document.getElementById("btn-submit").addEventListener("click", function () {
-    console.log('worked');
-});
-
+//Ouvindo quando o submit for acionado
 document.querySelector("#form-login").addEventListener("submit", function (e) {
     e.preventDefault();
-
+    //
     var email = document.querySelector('#email').value;
     var password = document.querySelector('#password').value;
 
